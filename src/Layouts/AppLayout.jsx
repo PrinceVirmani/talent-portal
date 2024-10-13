@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
-import React from "react";
+import { useUser } from "@clerk/clerk-react";
+import React, { useState } from "react";
 import { Outlet } from "react-router-dom";
 
 function AppLayout() {
