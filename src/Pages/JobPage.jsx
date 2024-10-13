@@ -12,8 +12,8 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { ApplyJobDrawer } from "@/components/ui/apply-job";
-import ApplicationCard from "@/components/ui/application-card";
+import { ApplyJobDrawer } from "@/components/apply-job";
+import ApplicationCard from "@/components/application-card";
 
 import useFetch from "@/hooks/use-fetch";
 import { getSingleJob, updateHiringStatus } from "@/api/apiJobs";
