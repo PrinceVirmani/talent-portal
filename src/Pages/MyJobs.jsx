@@ -1,4 +1,4 @@
-import CreatedApplications from "@/components/ui/";
+import CreatedApplications from "@/components/ui/created-applications";
 import CreatedJobs from "@/components/created-jobs";
 import { useUser } from "@clerk/clerk-react";
 import { BarLoader } from "react-spinners";
