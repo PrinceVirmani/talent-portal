@@ -1,6 +1,6 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
-import AppLayout from "./layouts/AppLayout";
+import AppLayout from "./Layouts/AppLayout";
 import ProtectedRoute from "./components/ProtectedRoutes";
 import { ThemeProvider } from "./components/theme-provider";
 
