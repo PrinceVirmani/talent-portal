@@ -1,9 +1,7 @@
-import Header from "@/components/Header";
-import { useUser } from "@clerk/clerk-react";
-import React, { useState } from "react";
+import Header from "@/components/header";
 import { Outlet } from "react-router-dom";
 
-function AppLayout() {
+const AppLayout = () => {
   return (
     <div>
       <div className="grid-background"></div>
@@ -12,10 +10,10 @@ function AppLayout() {
         <Outlet />
       </main>
       <div className="p-10 text-center bg-gray-800 mt-10">
-        Made with 💗 By PRINCE
+        Made with 💗 by PRINCE
       </div>
     </div>
   );
-}
+};
 
 export default AppLayout;
